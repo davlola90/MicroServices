@@ -53,7 +53,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Data",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Domain", "MicroRabbit.Transfer.Domain\MicroRabbit.Transfer.Domain.csproj", "{DC9055DF-95A9-4DB9-926F-B644A8C9CA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Api", "MicroRabbit.Transfer.Api\MicroRabbit.Transfer.Api.csproj", "{337C020A-0DD3-47CE-B4C0-D4F8182BF426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Api", "MicroRabbit.Transfer.Api\MicroRabbit.Transfer.Api.csproj", "{337C020A-0DD3-47CE-B4C0-D4F8182BF426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presen", "Presen", "{A4C7C3CD-8B0A-4033-94AE-70A2E23C0383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.MVC", "MicroRabbit.MVC\MicroRabbit.MVC.csproj", "{A344A4C0-704F-4273-AB70-A9BEC23DDE07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,10 @@ Global
 		{337C020A-0DD3-47CE-B4C0-D4F8182BF426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{337C020A-0DD3-47CE-B4C0-D4F8182BF426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{337C020A-0DD3-47CE-B4C0-D4F8182BF426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A344A4C0-704F-4273-AB70-A9BEC23DDE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A344A4C0-704F-4273-AB70-A9BEC23DDE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A344A4C0-704F-4273-AB70-A9BEC23DDE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A344A4C0-704F-4273-AB70-A9BEC23DDE07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +139,7 @@ Global
 		{B9CACF54-EC1C-432A-988D-029B0F3B7FDB} = {B836C741-3888-4EB8-9EAB-82E2EA134E43}
 		{DC9055DF-95A9-4DB9-926F-B644A8C9CA84} = {992F6A63-6FC6-4FAB-8386-3046631DE6BD}
 		{337C020A-0DD3-47CE-B4C0-D4F8182BF426} = {561A906D-7F9A-4888-AAA3-06668BF2BF81}
+		{A344A4C0-704F-4273-AB70-A9BEC23DDE07} = {A4C7C3CD-8B0A-4033-94AE-70A2E23C0383}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {684E88A9-CC23-4894-A035-96C282CE09ED}
