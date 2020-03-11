@@ -29,7 +29,15 @@ namespace MicroRabbit.Infra.IOC
         {
             //DomainBus
 
-            services.AddTransient<IEventBus, RabbitMQBus>();
+            services.AddSingleton<IEventBus, RabbitMQBus>(sp=>
+            {
+                var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
+                return new RabbitMQBus(sp.GetService<IMediator>(), scopeFactory);
+            });
+
+
+            //Subscriptions
+            services.AddTransient<TransferEventHandler>();
 
             //Domain Banking Commands
 
